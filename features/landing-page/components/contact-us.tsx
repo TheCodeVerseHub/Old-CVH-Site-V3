@@ -54,7 +54,11 @@ export function LandingContactUs() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-3 rounded-lg border border-border p-3 transition-colors hover:border-primary/50">
+              <Link
+                href="https://discord.gg/3xKFvKhuGR"
+                target="_blank"
+                className="flex items-center gap-3 rounded-lg border border-border p-3 transition-colors hover:border-primary/50 hover:bg-muted/50"
+              >
                 <div className="flex size-10 items-center justify-center rounded-lg bg-primary/10">
                   <svg
                     className="size-5 text-primary"
@@ -72,9 +76,13 @@ export function LandingContactUs() {
                     The CodeVerse Hub Discord
                   </p>
                 </div>
-              </div>
+              </Link>
 
-              <div className="flex items-center gap-3 rounded-lg border border-border p-3 transition-colors hover:border-primary/50">
+              <Link
+                href="https://github.com/TheCodeVerseHub/"
+                target="_blank"
+                className="flex items-center gap-3 rounded-lg border border-border p-3 transition-colors hover:border-primary/50 hover:bg-muted/50"
+              >
                 <div className="flex size-10 items-center justify-center rounded-lg bg-primary/10">
                   <GithubIcon className="size-5 text-primary" />
                 </div>
@@ -84,7 +92,7 @@ export function LandingContactUs() {
                   </p>
                   <p className="text-sm font-medium">@TheCodeVerseHub</p>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
 

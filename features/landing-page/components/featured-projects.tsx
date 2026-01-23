@@ -75,7 +75,7 @@ export function LandingFeaturedProjects() {
               </CardHeader>
               <CardContent className="relative">
                 <Button variant="outline" size="sm" asChild>
-                  <Link href="https://github.com" target="_blank">
+                  <Link href="https://github.com/TheCodeVerseHub/" target="_blank">
                     <Github className="size-3.5" />
                     View on GitHub
                   </Link>

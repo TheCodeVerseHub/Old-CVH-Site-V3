@@ -14,26 +14,26 @@ export function LandingFooter() {
           <div className="lg:col-span-2">
             <Link
               href="/"
-              className="flex items-center gap-2 text-sm font-medium"
+              className="flex items-center gap-2 text-base font-medium"
             >
               <TerminalIcon className="size-5 text-primary" />
               <span>CodeVerse Hub</span>
             </Link>
-            <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted-foreground">
+            <p className="mt-3 max-w-xs text-base leading-relaxed text-muted-foreground">
               A community for developers to learn, share, and grow together.
               Join us to build the future.
             </p>
             <div className="mt-4 flex items-center gap-1">
               <Heart className="size-4 text-primary fill-primary/20" />
-              <span className="text-xs text-muted-foreground">
+              <span className="text-sm text-muted-foreground">
                 Made with love by the community
               </span>
             </div>
           </div>
 
           <div>
-            <h4 className="text-sm font-medium">Community</h4>
-            <ul className="mt-3 space-y-2 text-xs text-muted-foreground">
+            <h4 className="text-base font-medium">Community</h4>
+            <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               <li>
                 <Link
                   href="/pages/rules"
@@ -70,8 +70,8 @@ export function LandingFooter() {
           </div>
 
           <div>
-            <h4 className="text-sm font-medium">Resources</h4>
-            <ul className="mt-3 space-y-2 text-xs text-muted-foreground">
+            <h4 className="text-base font-medium">Resources</h4>
+            <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               <li>
                 <Link
                   href="/pages/how-to-ask"
@@ -108,8 +108,8 @@ export function LandingFooter() {
           </div>
 
           <div>
-            <h4 className="text-sm font-medium">Legal</h4>
-            <ul className="mt-3 space-y-2 text-xs text-muted-foreground">
+            <h4 className="text-base font-medium">Legal</h4>
+            <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               <li>
                 <Link
                   href="/pages/privacy-policy"
@@ -139,13 +139,13 @@ export function LandingFooter() {
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-border pt-8 sm:flex-row sm:items-center">
-          <p className="text-xs text-muted-foreground">
+          <p className="text-sm text-muted-foreground">
             © 2026 CodeVerse Hub. All rights reserved.
           </p>
           <div className="flex items-center gap-2">
             <Button variant="ghost" size="icon-sm" asChild>
               <Link
-                href="https://github.com"
+                href="https://github.com/TheCodeVerseHub/"
                 target="_blank"
                 aria-label="GitHub"
               >
@@ -154,7 +154,7 @@ export function LandingFooter() {
             </Button>
             <Button variant="ghost" size="icon-sm" asChild>
               <Link
-                href="https://discord.com"
+                href="https://discord.gg/3xKFvKhuGR"
                 target="_blank"
                 aria-label="Discord"
               >
@@ -165,7 +165,7 @@ export function LandingFooter() {
             </Button>
             <Button variant="ghost" size="icon-sm" asChild>
               <Link
-                href="https://instagram.com"
+                href="https://instagram.com/thecodeversehub"
                 target="_blank"
                 aria-label="Instagram"
               >

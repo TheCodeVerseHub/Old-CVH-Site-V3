@@ -22,14 +22,15 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   }
 
   return (
-    <div className="min-h-screen bg-background text-foreground flex flex-col">
-      <main className="container mx-auto py-12 px-4 md:px-6 flex-1 max-w-4xl">
-         <h1 className="text-4xl font-bold mb-8 capitalize">{page.title}</h1>
-         <div className="prose dark:prose-invert max-w-none">
-            <ReactMarkdown>{page.content}</ReactMarkdown>
-         </div>
-      </main>
-      <LandingFooter />
-    </div>
+    <>
+      <div className="space-y-2 mb-8">
+         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl capitalize">
+          {page.title}
+         </h1>
+      </div>
+       <div className="prose prose-zinc dark:prose-invert max-w-none prose-headings:scroll-m-20 prose-headings:tracking-tight prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-code:text-primary prose-code:bg-muted prose-code:px-1 prose-code:py-0.5 prose-code:rounded-sm">
+          <ReactMarkdown>{page.content}</ReactMarkdown>
+       </div>
+    </>
   );
 }

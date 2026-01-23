@@ -51,7 +51,7 @@ export function LandingHero() {
         {/* Buttons */}
         <div className="mt-10 items-center justify-center flex w-full max-w-sm flex-col gap-3 sm:flex-row sm:max-w-md">
           <Button size="lg" className="text-base group max-sm:w-full" asChild>
-            <Link href="/join">
+            <Link href="/pages/join">
               Get started
               <ArrowRight className="ml-2 size-4 transition-transform group-hover:translate-x-1" />
             </Link>
@@ -62,7 +62,7 @@ export function LandingHero() {
             className="text-base max-sm:w-full"
             asChild
           >
-            <Link href="/resources">
+            <Link href="/pages/resources">
               Read the docs
               <ArrowRight className="ml-2 size-4 opacity-50 transition-transform group-hover:translate-x-1" />
             </Link>

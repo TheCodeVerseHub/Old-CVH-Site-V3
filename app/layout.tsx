@@ -4,6 +4,7 @@ import { Outfit } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 import { LandingHeader } from "@/features/landing-page/components/header";
+import { getAllPages } from "@/lib/pages";
 
 const fontSans = Outfit({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -19,6 +20,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const pages = getAllPages();
+
   return (
     <html lang="en" className={fontSans.variable} suppressHydrationWarning>
       <body className="antialiased">
@@ -28,7 +31,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <LandingHeader />
+          <LandingHeader pages={pages} />
           {children}
         </ThemeProvider>
       </body>

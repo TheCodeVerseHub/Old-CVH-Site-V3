@@ -6,23 +6,29 @@ export default function PagesIndex() {
   const pages = getAllPages();
 
   return (
-    <div className="min-h-screen bg-background text-foreground flex flex-col">
-      <main className="container mx-auto py-12 px-4 md:px-6 flex-1 max-w-4xl">
-        <h1 className="text-4xl font-bold mb-8">Pages</h1>
-        <ul className="space-y-4">
-          {pages.map((page) => (
-            <li key={page.slug}>
-              <Link 
-                href={`/pages/${page.slug}`}
-                className="text-xl text-primary hover:underline"
-              >
-                {page.title || page.slug}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </main>
-      <LandingFooter />
-    </div>
+    <>
+      <div className="space-y-4">
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+          Documentation
+        </h1>
+        <p className="text-lg text-muted-foreground">
+          Welcome to the CodeVerse Hub documentation. Select a topic from the sidebar to get started.
+        </p>
+      </div>
+      <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-2">
+        {pages.map((page) => (
+          <Link
+            key={page.slug}
+            href={`/pages/${page.slug}`}
+            className="group relative rounded-lg border p-6 hover:bg-muted/50 transition-colors"
+          >
+            <h3 className="font-semibold leading-none tracking-tight group-hover:underline">
+              {page.title || page.slug}
+            </h3>
+            {/* You could extract an excerpt here if you wanted */}
+          </Link>
+        ))}
+      </div>
+    </>
   );
 }
