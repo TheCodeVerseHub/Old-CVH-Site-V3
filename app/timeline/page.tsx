@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { SparklesText } from "@/components/ui/sparkles-text";
 import { Calendar, Flag, Trophy, Users, Zap, Search, Rocket } from "lucide-react";
+import { LandingFooter } from "@/features/landing-page/components/footer";
 
 interface TimelineItem {
   date: string;
@@ -175,29 +176,30 @@ export default function TimelinePage() {
                 <Separator className="my-8 w-24 mx-auto bg-primary/30" />
             </div>
 
-            {/* Desktop Center Line */}
-            <div className="absolute left-1/2 top-48 bottom-12 hidden w-0.5 -translate-x-1/2 bg-primary/20 md:block" />
-
             <div className="relative space-y-12 pb-12">
+                 {/* Desktop Center Line - Inside container */}
+                <div className="absolute left-1/2 top-0 bottom-0 hidden w-px -translate-x-1/2 bg-primary/20 md:block" />
+
                  {/* Timeline Items */}
                 {timelineData.map((item, index) => (
                     <div key={index} className="relative">
                         {/* Mobile Line (Left) */}
-                        <div className="absolute left-[11px] top-0 bottom-[-48px]  w-0.5 bg-primary/20 md:hidden last:bottom-0" />
+                        <div className="absolute left-[11px] top-0 bottom-[-48px]  w-px bg-primary/20 md:hidden last:bottom-0" />
 
                         {/* Dot */}
-                        <div className="absolute left-[3px] top-0 size-4 rounded-full bg-background border-4 border-primary shadow-[0_0_10px_rgba(var(--primary-rgb),0.5)] md:left-1/2 md:-translate-x-1/2 z-20 mt-1.5" />
+                        <div className="absolute left-[3px] top-6 size-4 rounded-full bg-background border-4 border-primary shadow-[0_0_10px_rgba(var(--primary-rgb),0.5)] md:left-1/2 md:-translate-x-1/2 z-20" />
                         
                         {/* Content */}
-                        <div className={`flex flex-col md:flex-row items-start justify-between gap-8 ${index % 2 === 0 ? 'md:flex-row-reverse' : ''} group pl-8 md:pl-0`}>
-                             {/* Date (Desktop) */}
-                             <div className={`hidden md:block w-full md:w-[calc(50%-2rem)] text-right ${index % 2 === 0 ? 'text-left' : ''} mt-1.5`}>
+                        <div className={`flex flex-col md:flex-row items-center gap-8 ${index % 2 === 0 ? 'md:flex-row-reverse' : ''} group pl-8 md:pl-0`}>
+                             {/* Date Side */}
+                             <div className={`hidden md:flex w-full md:w-1/2 items-center ${index % 2 === 0 ? 'justify-start pl-12' : 'justify-end pr-12'}`}>
                                 <span className="text-sm font-bold text-muted-foreground tracking-wider uppercase font-mono">{item.date}</span>
                             </div>
 
-                             {/* Card */}
-                            <Card className="w-full md:w-[calc(50%-2rem)] transition-all duration-300 hover:border-primary/50 hover:shadow-lg">
-                                <CardHeader className="pb-2">
+                             {/* Card Side */}
+                            <div className={`w-full md:w-1/2 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
+                                <Card className="w-full transition-all duration-300 hover:border-primary/50 hover:shadow-lg">
+                                    <CardHeader className="pb-2">
                                     <div className="flex items-center justify-between gap-4 mb-2">
                                          <Badge variant="outline" className={`gap-1.5 ${getColor(item.category)}`}>
                                             {getIcon(item.category)}
@@ -214,6 +216,7 @@ export default function TimelinePage() {
                                 </CardContent>
                             </Card>
                         </div>
+                    </div>
                     </div>
                 ))}
             </div>
@@ -245,6 +248,7 @@ export default function TimelinePage() {
                 </div>
              </div>
         </div>
+        <LandingFooter />
     </main>
   );
 }
