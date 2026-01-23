@@ -36,7 +36,7 @@ export function LandingFooter() {
             <ul className="mt-3 space-y-2 text-xs text-muted-foreground">
               <li>
                 <Link
-                  href="/rules"
+                  href="/pages/rules"
                   className="transition-colors hover:text-foreground"
                 >
                   Rules
@@ -44,7 +44,7 @@ export function LandingFooter() {
               </li>
               <li>
                 <Link
-                  href="/code-of-conduct"
+                  href="/pages/code-of-conduct"
                   className="transition-colors hover:text-foreground"
                 >
                   Code of Conduct
@@ -52,7 +52,7 @@ export function LandingFooter() {
               </li>
               <li>
                 <Link
-                  href="/server-info"
+                  href="/pages/server-info"
                   className="transition-colors hover:text-foreground"
                 >
                   Server Info
@@ -60,7 +60,7 @@ export function LandingFooter() {
               </li>
               <li>
                 <Link
-                  href="/moderation"
+                  href="/pages/moderation-guide"
                   className="transition-colors hover:text-foreground"
                 >
                   Moderation
@@ -74,7 +74,7 @@ export function LandingFooter() {
             <ul className="mt-3 space-y-2 text-xs text-muted-foreground">
               <li>
                 <Link
-                  href="/guides"
+                  href="/pages/how-to-ask"
                   className="transition-colors hover:text-foreground"
                 >
                   Guides
@@ -82,7 +82,7 @@ export function LandingFooter() {
               </li>
               <li>
                 <Link
-                  href="/tags"
+                  href="/pages/tags"
                   className="transition-colors hover:text-foreground"
                 >
                   Tags
@@ -90,7 +90,7 @@ export function LandingFooter() {
               </li>
               <li>
                 <Link
-                  href="/learning"
+                  href="/pages/resources"
                   className="transition-colors hover:text-foreground"
                 >
                   Learning
@@ -98,7 +98,7 @@ export function LandingFooter() {
               </li>
               <li>
                 <Link
-                  href="/faq"
+                  href="/pages/faq"
                   className="transition-colors hover:text-foreground"
                 >
                   FAQ
@@ -112,7 +112,7 @@ export function LandingFooter() {
             <ul className="mt-3 space-y-2 text-xs text-muted-foreground">
               <li>
                 <Link
-                  href="/privacy"
+                  href="/pages/privacy-policy"
                   className="transition-colors hover:text-foreground"
                 >
                   Privacy Policy
@@ -120,7 +120,7 @@ export function LandingFooter() {
               </li>
               <li>
                 <Link
-                  href="/security"
+                  href="/pages/security-notice"
                   className="transition-colors hover:text-foreground"
                 >
                   Security Notice
@@ -128,7 +128,7 @@ export function LandingFooter() {
               </li>
               <li>
                 <Link
-                  href="/acknowledgements"
+                  href="/pages/acknowledgements"
                   className="transition-colors hover:text-foreground"
                 >
                   Acknowledgements
