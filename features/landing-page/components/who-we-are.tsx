@@ -27,13 +27,13 @@ export function LandingWhoWeAre() {
 
           <div className="grid grid-cols-2 gap-4">
             <div className="rounded-lg border border-border  p-4 transition-colors hover:border-primary/20">
-              <div className="text-2xl font-bold text-primary">500+</div>
+              <div className="text-2xl font-bold text-primary">900+</div>
               <div className="text-xs text-muted-foreground">
                 Active Members
               </div>
             </div>
             <div className="rounded-lg border border-border  p-4 transition-colors hover:border-primary/20">
-              <div className="text-2xl font-bold text-primary">50+</div>
+              <div className="text-2xl font-bold text-primary">10+</div>
               <div className="text-xs text-muted-foreground">
                 Open Source Projects
               </div>

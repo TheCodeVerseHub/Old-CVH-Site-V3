@@ -26,12 +26,29 @@ export default function AdminPage() {
   };
 
   // Auth attempt
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (username && password) {
-      setIsAuthenticated(true);
-      fetchAnnouncements();
-      toast.success("Logged in (Credentials stored for session)");
+    if (!username || !password) {
+        toast.error("Please enter both username and password");
+        return;
+    }
+
+    try {
+        const res = await fetch("/api/auth/verify", {
+            headers: {
+                Authorization: `Basic ${btoa(`${username}:${password}`)}`,
+            },
+        });
+
+        if (res.ok) {
+            setIsAuthenticated(true);
+            fetchAnnouncements();
+            toast.success("Login successful");
+        } else {
+            toast.error("Invalid credentials");
+        }
+    } catch (error) {
+        toast.error("Login verification failed");
     }
   };
 
