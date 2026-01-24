@@ -1,0 +1,313 @@
+'''
+Here, we\'ve answered the most common questions about using bots, events, learning, safety, and more.
+
+If you still need help, feel free to create a Support Ticket Here
+We listen to each Query and if Needed we may add it As an FAQ here
+
+Q 1. How to use the bot commands?
+Most of our bots can be used in the bot-commands channel unless specified otherwise.
+Some bots have their dedicated Channels like:-
+Questions bot (coding quiz) Eigen Bot -> only in Coding-quiz channel.
+Counting bot (added just for fun) is restricted only in counting
+Bump commands to support our community is restricted in a dedicated channel bump only visible to People with BUMP Role. If u wish to support our community get the bump role from Channels & Roles
+
+To Use Bot Commands
+Simply type a slash / ( All slash commands are supported in bot-commands)
+If bot is restricted to some channel slash command may work only in that channel.
+If a bot requires a prefix (like !, $, or ?), it will be mentioned in the bot name in ()
+Mostly each bot commands can be seen using /help command for unbelivaboat check pinned message in bot-games
+for all commands.
+
+
+Q. 2. What roles are available and how to get them?
+We have many roles such as:
+
+Language Roles: Python, Java, C++, C, PHP, Rust, Javascript, Typescript, Sql, Html, Css, Golang, Scala, Assembly, Dart, and more... Get them on boarding Channels & Roles or react message in self-roles .
+
+Note:- Some language channels are locked for specific roles only if u cant see your language channel get the appropriate language role.
+
+Skills/Field related roles - Web dev, Machine learning, Cybersecurity, Blockchain, Game dev, etc. Get them while onboarding Channels & Roles or react message in self-roles
+
+
+Team/Staff Roles: Apply for Moderator/ Manager roles only in staff-applications Each application is deeply Scrutinized before any decision.
+
+Note :- U need to be an active member in the community to apply for staff.
+
+
+Cool Roles: Temporary tags like "Pro Gambler" , “Codemaster” from events by winning coding contests or by being rich in  bot-games
+
+
+THE BOOSTER ROLE : Boost this Server help us grow, Show Your Support to us. This role unlocks many perks and many exclusive channel access, early access to events, early access to bots,Highest Visible role and many more perks.
+Also this is the coolest gradient role we have.
+
+Activity Roles:-
+So our activity Roles Go something like this
+Active -> Very active -> Ultra active ->Elite member -> Honorably active -> Top contributors
+
+U get them automatically by Arcane bot as per your level. Higher Roles unlock New channels, new perms and Higher Visibility.
+
+Ping Roles -  If you are interested in some stuff in the server and wanna get pinged for it..like Tech updates, coding contests, Chat Revive, Programming Updates, Bump reminders, Polls, Fun events, etc. Get Your Ping Roles from Channels & Roles
+9/20/25, 4:12 PM
+[?] Codeverse HubRole icon, -
+APP
+ — 9/20/25, 4:16 PM
+Q. 3. How to participate in coding events?
+We often host coding contests, mini-challenges, and Fun events in
+events , announcements
+and some polls polls .
+
+To participate:
+Keep an eye on announcements for event dates.
+Follow the instructions given (such as submitting a project, rules and other instructions).
+Winners are announced in the same channel or in announcements
+Winners often receive badges, roles, or Shoutout in announcements
+
+Since participation Method is different for each Event we suggest you to take ping roles and follow the instructions in the respective channel when there's an event.
+9/20/25, 4:16 PM
+[?] Codeverse HubRole icon, -
+APP
+ — 9/20/25, 4:20 PM
+Q. 4  Where can I find study resources or project help?
+Check out these channels:
+
+unknown — Curated links, PDFs, tools, cheat sheets
+git-github-gitlab — Open-source projects to contribute or learn from
+computer-science — DSA help and tips
+
+
+You can also ask doubts in help-forums we listen to each question and answer as soon as possible, read pinned post for better answers in that channel.
+
+
+Additionally if You have some projects (small or big) you can post it in projects-showcase we will provide our feedbacks, suggestions and guidance over that project. Your contribution to the community will also be appreciated this way.
+9/20/25, 4:20 PM
+[?] Codeverse HubRole icon, -
+APP
+ — 9/20/25, 4:25 PM
+Q. 5 How to post in help channels properly?
+In help-forums , follow this format to get quicker help:
+
+Mention the language or tech you're using (e.g., Python, HTML).
+Paste the error or code in code blocks (use triple backticks like ` ).
+Be specific. Say what you expect vs. what you’re getting.
+Avoid vague messages like “it’s not working” — give context to get better help.
+if possible attach your code files and if u need urgent help ping @Volunteer (Ping me for help)
+Please do not ping @Staff unless u want some non-technical help or wanna resolve a query.  We advice You to create a Support ticket in Support for that.
+9/20/25, 4:27 PM
+[?] Codeverse HubRole icon, -
+APP
+ — 9/20/25, 4:34 PM
+Q. 6. What languages or tech stacks are supported?
+We support a wide variety of languages like Python, C/C++, Java, JavaScript, TypeScript, HTML, CSS, SQL, NoSQL, Rust, Dart, Scala, Php, Assembly, and many more...
+
+Also Different fields like: Game Dev (Unity, Roblox, Minecraft scripting), Web dev, ML, AI, Data Science, Data Analytics, Blockchain, Cybersecurity and many more..
+
+Feel free to share resources or ask for help in the related channels.
+
+For Language related help check :-
+
+python For Python
+javascript For Js (Node/Next/React/Angular/Strapi/Vue all supported)
+web-dev For Html and Css
+c-cpp For C/C++ related help.
+databases For Sql/Nosql stuff.
+Assembly For Assembly
+unknown For Php
+unknown For TypeScript
+GoLang For Go lang
+rust For Rust
+unknown For Java
+unknown For Swift
+unknown for C#
+Containers & Tools For Container tools and Json
+check more in other-languages
+
+If you want a dedicated channel/Forum for a new non listed language use
+ !suggest  your suggestion here 
+
+command in bot-commands and we will look to create a channel or a forum in other-languages.
+
+NOTE :- If You see "No Access" To some channels here, its because they are locked only to specific roles (The language roles) to view those channels get the appropriate language role from Channels & Roles or react in self-roles
+9/20/25, 4:38 PM
+[?] Codeverse HubRole icon, -
+APP
+ — 9/20/25, 4:38 PM
+Q. 7. What are the rules for submitting projects or answers?
+When submitting projects projects-showcase or challenge answers:
+
+Provide code(either typed in backticks format or just one file (.exe/.bat not allowed) )
+Add a short description of what your project does
+Do not submit copied or AI-generated content without credit
+Meet the event deadline — late entries won’t count
+9/20/25, 4:38 PM
+[?] Codeverse HubRole icon, -
+APP
+ — 9/20/25, 4:46 PM
+Q. 8 What happens if I break rules?
+Server Violations & Penalty Guidelines
+Violation Categories & Consequences
+Minor Violations
+Examples:
+Off-topic discussions in wrong channels
+Minor spam or excessive messaging
+First-time minor misconduct
+Inappropriate use of bot commands
+
+Penalties:
+1st Offense: Verbal Warning
+ 2nd Offense: Official Warning (logged by Wick bot)
+ 3rd Offense: Temporary Mute (1-24 hours)
+ Continued: Kick from server
+
+Major Violations
+Examples:
+Harassment, hate speech, discrimination
+Sharing NSFW or offensive content
+Advertising, DM spam, or server invites
+Repeated minor violations after warnings
+Scamming or fraudulent activities
+
+Penalties:
+ 1st Major Offense: Temporary Ban (3-7 days)
+2nd Major Offense: Extended Ban (14-30 days)
+ 3rd Major Offense: Permanent Ban
+
+Severe Violations
+Examples:
+Impersonation of staff or community members
+Severe harassment, doxxing, or threats
+Sharing malicious code, hacking, or illegal content
+Ban evasion using alternate accounts
+Any illegal activities or content
+
+Penalties:
+Immediate Permanent Ban
+All associated accounts banned
+Report to Discord Trust & Safety
+
+Appeals Process
+How to Appeal:
+Wait few hours after penalty
+Check your Wick dm for Appeals process
+Provide context and acknowledge wrongdoing
+Show understanding of rules
+
+What Helps Your Appeal:
+Genuine apology and accountability
+Demonstrating rule understanding
+Time passed showing reflection
+Previous positive contribution history
+
+Important Notes
+ Context Matters: Staff consider intent, history, and circumstances
+ Progressive Discipline: Penalties increase with repeat offenses
+Zero Tolerance: Severe violations = immediate permanent ban
+ Appeals: Not all bans are appealable, especially severe violations
+
+Our Goal
+We aim to maintain a safe, welcoming, and productive environment for all community members while being fair and consistent in our moderation approach.
+
+Questions? Contact our moderation team! via Support Ticket Here
+9/20/25, 4:51 PM
+[?] Codeverse HubRole icon, -
+APP
+ — 9/20/25, 4:50 PM
+Q. 9. How to report a spammer or offensive content?
+Right-click the message > Copy Message Link
+
+Create a Report Ticket in ᴛɪᴄᴋᴇᴛs Immediately To report.
+
+Or if its extremely Urgent ping the active moderator In the respective Drama Channel or react the offensive message with :xmashammerban: to immediately send a report to mods via sapphire bot.
+
+Never engage with spammers — just report and move on.
+9/25/25, 4:00 PM
+[?] Codeverse HubRole icon, -
+APP
+ — 9/20/25, 4:55 PM
+Q. 10. What is considered off-topic?
+Any message not related to the channel's purpose is off-topic. For example:
+Posting memes in help-forums
+Talking about food in dev-discussion
+
+Use lobby or voice channels for chit-chat!
+Use gaming For talking abouts games and anime.
+Use unknown To post memes and Media.
+9/20/25, 4:55 PM
+[?] Codeverse HubRole icon, -
+APP
+ — 10/3/25, 9:48 PM
+Q. 11 What is CodeVerse Hub??
+Welcome to CodeVerse Hub, the all in one space for coders, tech enthusiasts, and learners of every level! Our server brings together people interested in coding, technology, and digital creativity..... whether you're just starting out or a seasoned expert. Connect, ask, share, and collaborate in a positive, diverse community.
+
+Languages & Technologies Supported
+We support a wide variety of languages, including:
+Python, C/C++, Java, JavaScript, TypeScript, HTML, CSS, SQL, NoSQL, Rust, Dart, Scala, Php, Assembly, Swift, C#, and many more!
+
+Explore channels for every interest:
+Game Dev: Unity, Roblox, Minecraft scripting
+Web dev, ML & AI
+Data Science & Analytics
+Blockchain, Cybersecurity
+And many more cutting-edge fields
+
+Feel free to share resources or ask for help in the related channels!
+
+Language Help Channels
+Find help for specific programming languages:
+python — Python
+javascript — JavaScript (Node/Next/React/Angular/Strapi/Vue)
+web-dev — HTML and CSS
+c-cpp — C/C++
+databases — SQL/NoSQL
+Assembly — Assembly
+unknown — PHP
+unknown — TypeScript
+GoLang — Go
+rust — Rust
+unknown — Java
+unknown — C#
+W++ — W++ (A member made Language Thanks to @Lord_Nova)
+Containers & Tools — Container tools & JSON
+See even more in other-languages
+
+Want a dedicated forum for a new or non-listed language? Use
+!suggest your suggestion here
+
+in bot-commands and we’ll consider creating a channel or forum in other-languages.
+
+Activity Roles & Recognition
+Progress through our activity roles for greater visibility and perks:
+@Active Member → @Hyper Active → @Server Regular → @Super Active → @⟡ Honorably Active → @ Top Contributors
+
+Earn @⟡ Honorably Active or @ Top Contributors roles by contributing weekly and reaching the top 10 of our leaderboard for a week.
+
+Top contributors get extra visibility, access, and exclusive permissions. Higher activity may even grant archive access.
+
+@Nitro Boosters receive immediate access to all channels, archives, our highest visibility roles, and secret exclusive perks!
+
+Staff Roles & How to Apply
+Our staff team keeps the community welcoming and safe!
+@unknown-role — Rookie Staff
+@unknown-role — Community Staff
+@unknown-role — Moderator
+@unknown-role — Senior Moderator
+@Community Manager — Community Manager
+@unknown-role — Head Staff
+@Admins — Admin
+
+Other staff roles:
+@Ticket Support — Ticket Support Team
+@unknown-role — Social Media Manager
+@Staff — Mod Team Shared Role
+@unknown-role — Staff of the Week
+
+To apply: You need at least the Very Active role and must fill out the form in staff-applications.
+
+Moderation & Reporting
+See someone breaking the rules?
+Create a report ticket in ᴛɪᴄᴋᴇᴛs or
+Ping The available active mod
+
+Channel Access
+If you see "No Access" to some channels, they may be locked to specific roles (language roles). Get the appropriate language role from Channels & Roles or react in self-roles for access.
+
+Enjoy collaborating, sharing, and coding....your journey starts here!
