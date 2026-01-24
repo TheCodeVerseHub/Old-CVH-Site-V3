@@ -98,29 +98,32 @@ export function LandingContactUs() {
 
           <Card className="overflow-hidden">
             <CardContent className="pt-6">
-              <form className="space-y-4">
+              <form 
+                action="https://formspree.io/f/mdkvwgln" 
+                method="POST"
+                className="space-y-4"
+              >
                 <Field>
                   <FieldLabel htmlFor="name">Name</FieldLabel>
-                  <Input id="name" placeholder="Your full name" />
+                  <Input id="name" name="name" placeholder="Your full name" required />
                 </Field>
                 <Field>
                   <FieldLabel htmlFor="email">Email</FieldLabel>
-                  <Input id="email" type="email" placeholder="your@email.com" />
+                  <Input id="email" name="email" type="email" placeholder="your@email.com" required />
                 </Field>
                 <Field>
                   <FieldLabel htmlFor="subject">Subject</FieldLabel>
-                  <Input id="subject" placeholder="What is this about?" />
+                  <Input id="subject" name="subject" placeholder="What is this about?" required />
                 </Field>
                 <Field>
                   <FieldLabel htmlFor="message">Message</FieldLabel>
                   <Textarea
                     id="message"
+                    name="message"
                     placeholder="How can we help you?"
                     rows={4}
+                    required
                   />
-                  <p className="mt-1 text-xs text-muted-foreground">
-                    0 / 1200 chars
-                  </p>
                 </Field>
                 <Button type="submit" className="w-full">
                   Send Message

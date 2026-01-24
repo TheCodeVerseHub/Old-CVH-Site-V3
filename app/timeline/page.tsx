@@ -130,9 +130,9 @@ const getIcon = (category: string) => {
     case "Automation":
       return <Zap className="size-4" />;
     case "Growth":
-      return <div className="size-4">📈</div>;
+      return <div className="size-4"></div>;
     case "Vision":
-      return <div className="size-4">👁️</div>;
+      return <div className="size-4"></div>;
     default:
       return <Calendar className="size-4" />;
   }
@@ -223,7 +223,7 @@ export default function TimelinePage() {
 
              {/* Roadmap Section */}
              <div className="mt-20">
-                <SparklesText text="Our Roadmap" className="text-3xl text-center mb-2" />
+                <SparklesText className="text-3xl text-center mb-2">Our Roadmap</SparklesText>
                 <p className="text-center text-muted-foreground mb-12">What we're building next to empower the community.</p>
 
                 <div className="grid md:grid-cols-1 gap-6 max-w-2xl mx-auto">

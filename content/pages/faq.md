@@ -1,34 +1,61 @@
 ---
 title: Frequently Asked Questions
+description: Common questions about using bots, roles, events, and learning at CodeVerse Hub.
 ---
-### Staff & Roles
 
-**Q: How do I become a Helper or Moderator?**
-We do not have public applications for staff roles. Members are nominated by existing staff based on their helpfulness, activity, and adherence to our culture. If you are active and helpful, you might be noticed!
+### General
 
-**Q: What do the roles mean?**
-Check out our [Server Information](/pages/server-info) page for a breakdown of all roles.
+**Q: What is CodeVerse Hub?**
+CodeVerse Hub is an all-in-one space for coders, tech enthusiasts, and learners of every level. We bring together people interested in coding, technology, and digital creativity. Whether you're just starting out or a seasoned expert, you can connect, ask, share, and collaborate here.
 
-### Bots
+**Q: What languages or tech stacks are supported?**
+We support a wide variety of languages including Python, C/C++, Java, JavaScript, TypeScript, HTML, CSS, SQL, NoSQL, Rust, Dart, Scala, PHP, Assembly, Swift, C#, and many more. We also cover fields like Game Dev, Web Dev, ML, AI, Data Science, Blockchain, and Cybersecurity.
 
-**Q: Can I get @CodeVerseBot on my server?**
-Currently, our bot is specific to our server architecture and is not open for public invites. However, the source code is available on our GitHub if you wish to host your own instance.
+### Events & Projects
 
-**Q: Who is @ModMail?**
-ModMail is a bot that allows you to send private messages to the staff team. Simply DM the bot to open a ticket.
+**Q: How do I participate in coding events?**
+We often host contests, mini-challenges, and fun events. Keep an eye on our announcements for dates and instructions. Winners often receive badges, roles, or shoutouts.
 
-### Server Questions
+**Q: What are the rules for submitting projects?**
+When submitting projects or challenge answers:
+- Provide code (either in code blocks or a file; no executables allowed).
+- Add a short description of what your project does.
+- Do not submit copied or AI-generated content without credit.
+- Meet the event deadline.
 
-**Q: Why can't I upload files?**
-We restrict file uploads to ensure safety. Please use paste services like [Pastebin](https://pastebin.com) or GitHub Gists for code sharing.
+### Roles & Community
 
-**Q: Can I advertise my project?**
-Specific advertising is generally not allowed to prevent spam. You may showcase open-source projects in the designated `#showcase` channel if they are relevant to the community.
+**Q: What roles are available and how do I get them?**
+We have many roles:
+- **Language Roles**: Verify your expertise or interest in specific languages.
+- **Skills/Field Roles**: For areas like Web Dev, ML, Cybersecurity, etc.
+- **Activity Roles**: Earned automatically by being active (Active -> ... -> Top Contributor).
+- **Staff Roles**: Applications open periodically for active members.
+- **Booster Role**: For supporting the server, granting exclusive perks.
 
-### Misc
+**Q: How do I report a spammer or offensive content?**
+Create a Report Ticket immediately or ping an active moderator in urgent cases. Never engage with spammers directly.
 
-**Q: Is this server official?**
-We are a community-run server dedicated to coding and development. We are not affiliated with any official organization.
+### Support & Help
 
-**Q: How can I suggest features or improvements?**
-Feel free to open a discussion in the `#suggestions` channel or contact staff via ModMail. We welcome constructive feedback!
+**Q: How do I post in help channels properly?**
+To get help quickly:
+1. Mention the language or tech you're using.
+2. Paste the error or code in code blocks (use triple backticks \`\`\`).
+3. Be specific about what you expect vs. what you're getting.
+4. Avoid vague messages like "it's not working".
+
+**Q: Where can I find study resources?**
+We have dedicated channels for:
+- Curated links, PDFs, and cheat sheets.
+- Open-source projects (Git/GitHub).
+- Computer Science (DSA help and tips).
+- Project Showcases for feedback.
+
+### Bots & Commands
+
+**Q: How do I use bot commands?**
+Most bots use slash commands (`/`). Type `/` in the designated bot channel to see available commands. Some bots may use specific prefixes which will be mentioned in their instructions.
+
+**Q: What is considered off-topic?**
+Any message not related to the channel's purpose. For example, posting memes in help forums or talking about food in development discussions. Please use the appropriate lobby, gaming, or media channels for casual chat.
