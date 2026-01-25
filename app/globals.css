@@ -126,3 +126,21 @@ body {
   @apply bg-background text-foreground;
 }
 }
+
+@keyframes grid {
+  0% { transform: translateY(-50%); }
+  100% { transform: translateY(0); }
+}
+.animate-grid {
+  animation: grid 15s linear infinite;
+}
+
+
+@keyframes shine {
+  0% { transform: translateX(-150%) skewX(-12deg); }
+  100% { transform: translateX(150%) skewX(-12deg); }
+}
+.animate-shine {
+  animation: shine 3s infinite linear;
+}
+

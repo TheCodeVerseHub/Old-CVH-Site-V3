@@ -1,6 +1,7 @@
 import { getAllPages } from '@/lib/pages';
 import Link from 'next/link';
-import { LandingFooter } from "@/features/landing-page/components/footer";
+import { TextReveal } from "@/components/framer/text-reveal";
+import SpotlightCard from "@/components/framer/spotlight";
 
 export default function PagesIndex() {
   const pages = getAllPages();
@@ -8,9 +9,9 @@ export default function PagesIndex() {
   return (
     <>
       <div className="space-y-4">
-        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-          Documentation
-        </h1>
+        <div className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+           <TextReveal text="Documentation" />
+        </div>
         <p className="text-lg text-muted-foreground">
           Welcome to the CodeVerse Hub documentation. Select a topic from the sidebar to get started.
         </p>
@@ -20,12 +21,16 @@ export default function PagesIndex() {
           <Link
             key={page.slug}
             href={`/pages/${page.slug}`}
-            className="group relative rounded-lg border p-6 hover:bg-muted/50 transition-colors"
+            className="block h-full group"
           >
-            <h3 className="font-semibold leading-none tracking-tight group-hover:underline">
-              {page.title || page.slug}
-            </h3>
-            {/* You could extract an excerpt here if you wanted */}
+            <SpotlightCard className="h-full p-6 transition-colors hover:bg-muted/10 cursor-pointer bg-card/50 backdrop-blur-sm border-white/10 group-hover:border-purple-500/50" spotlightColor="rgba(139, 92, 246, 0.3)">
+                <h3 className="font-semibold leading-none tracking-tight mb-2 group-hover:text-purple-400 transition-colors">
+                {page.title || page.slug}
+                </h3>
+               <p className="text-sm text-muted-foreground">
+                   Explore the {page.title || page.slug} section.
+               </p>
+            </SpotlightCard>
           </Link>
         ))}
       </div>
