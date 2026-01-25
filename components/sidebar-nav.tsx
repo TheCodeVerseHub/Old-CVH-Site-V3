@@ -33,8 +33,8 @@ export function SidebarNav({ className, items, ...props }: SidebarNavProps) {
               className={cn(
                 "relative group flex w-full items-center rounded-md px-4 py-2.5 text-sm font-medium transition-colors duration-200",
                 isActive
-                  ? "bg-purple-600 text-white shadow-none"
-                  : "text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                  ? "bg-purple-500/15 text-purple-300 shadow-none hover:bg-purple-500/25"
+                  : "text-muted-foreground hover:bg-white/5 hover:text-foreground"
               )}
             >
               <span className="relative z-10 flex items-center gap-3">
@@ -47,7 +47,7 @@ export function SidebarNav({ className, items, ...props }: SidebarNavProps) {
                         width: isActive ? 6 : 0,
                         marginRight: isActive ? 8 : 0
                     }}
-                    className="h-1.5 w-1.5 rounded-full bg-white/90" 
+                    className="h-1.5 w-1.5 rounded-full bg-purple-400" 
                 />
                  
                  <span className={cn(

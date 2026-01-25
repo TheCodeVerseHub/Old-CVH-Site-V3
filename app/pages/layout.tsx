@@ -29,7 +29,7 @@ export default function PagesLayout({
   }));
 
   return (
-    <div className="relative flex min-h-screen flex-col bg-background/50 selection:bg-purple-500/30 overflow-hidden">
+    <div className="relative flex flex-col min-h-[calc(100vh-5rem)] md:h-[calc(100vh-5rem)] bg-background/50 selection:bg-purple-500/30 overflow-hidden">
         <div className="fixed inset-0 z-0 pointer-events-none">
             <RetroGrid />
         </div>
@@ -59,7 +59,7 @@ export default function PagesLayout({
       </div>
 
       {/* Desktop Resizable Layout */}
-      <div className="hidden md:flex flex-1 h-[calc(100vh)] z-10 relative">
+      <div className="hidden md:flex flex-1 h-[calc(100vh-5rem)] z-10 relative">
          <ResizablePanelGroup direction="horizontal" className="h-full w-full rounded-lg">
             <ResizablePanel defaultSize={20} minSize={15} maxSize={30} className="border-r border-white/10 bg-background/30 backdrop-blur-xl">
                 <ScrollArea className="h-full py-6">
