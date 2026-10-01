@@ -1,3 +1,11 @@
+> [!WARNING]
+> **This repository is no longer maintained.**
+>
+> Active development has moved to **CodeverseHub-Website**:
+> https://github.com/TheCodeVerseHub/codeversehub-website
+>
+> This repository is kept for archival purposes only and will not receive future updates.
+
 # The CodeVerse Hub
 
 *A community-driven platform for developers to collaborate, learn, and build software together.*
